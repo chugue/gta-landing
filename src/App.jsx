@@ -1,16 +1,15 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Hero from "./sections/Hero";
+import Navbar from "./sections/Navbar";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
     <main>
-      <div>
-        <h1 className="text-3xl font-bold text-indigo-600">
-          Welcome to the world of GTA and GSAP!
-        </h1>
-      </div>
+      <Navbar />
+      <Hero />
     </main>
   );
 };
