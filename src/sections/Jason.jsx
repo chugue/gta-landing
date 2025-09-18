@@ -1,5 +1,5 @@
-import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Jason = () => {
   useGSAP(() => {
@@ -14,7 +14,7 @@ const Jason = () => {
           scrub: 2,
         },
       })
-      .to(".first-vd", { opacity: 0, duration: 1, ease: "power1.inOut" });
+      .to(".first-vd", { opacity: 0, duration: 3, ease: "power1.inOut" });
 
     gsap.to(
       ".jason .img-box",
