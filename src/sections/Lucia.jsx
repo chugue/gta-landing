@@ -24,7 +24,7 @@ const Lucia = () => {
       });
 
     gsap.to(
-      ".lucia-life img-box",
+      ".lucia-life .img-box-2",
       {
         scrollTrigger: {
           trigger: ".lucia-life ",
@@ -41,7 +41,7 @@ const Lucia = () => {
   });
   return (
     <section className="lucia-life">
-      <div className="flex flex-col gap-5 items-end img-box lg:w-1/2 ps-10 mt-96">
+      <div className="flex flex-col gap-5 items-end img-box-2 lg:w-1/2 ps-10 mt-96">
         <div className="lucia-1">
           <img src="/images/lucia-1.webp" alt="lucia-2" />
         </div>
