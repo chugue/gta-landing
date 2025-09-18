@@ -1,14 +1,12 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 const Final = () => {
   const videoRef = useRef(null);
 
   useGSAP(() => {
-    gsap.set(".final-content", {
-      opacity: 0,
-    });
+    gsap.set(".final-content", { opacity: 0 });
 
     gsap.timeline({
       scrollTrigger: {
@@ -48,6 +46,7 @@ const Final = () => {
       );
     };
   });
+
   return (
     <section className="final">
       <div className="final-content size-full">
@@ -55,10 +54,10 @@ const Final = () => {
           ref={videoRef}
           muted
           playsInline
-          src="/videos/output3.mp4"
           preload="auto"
+          src="/videos/output3.mp4"
           className="size-full object-cover"
-        ></video>
+        />
       </div>
     </section>
   );
