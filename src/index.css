@@ -246,6 +246,7 @@ main {
 }
 
 .jason-content {
+  @apply w-2xl;
   background: radial-gradient(ellipse, #111117 20%, transparent 70%);
 }
 

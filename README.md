@@ -1,12 +1,31 @@
-# React + Vite
+# GTA-style Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a visually rich, animated landing page inspired by the Grand Theft Auto game series. It's built with React and uses GSAP for advanced animations and scroll-triggered events.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **Immersive Hero Section:** A captivating hero section with a dynamic background, a prominent logo, and a "Watch Trailer" call-to-action. It features a sophisticated mask animation on scroll, powered by GSAP.
+*   **Scroll-Triggered Video Playback:** As the user scrolls, a video automatically plays, creating a cinematic experience.
+*   **Character Introduction:** A dedicated section to introduce one of the main characters, "Jason," with a brief bio and multiple images.
+*   **"Coming Soon" Announcement:** A section to announce the fictional game's release date and the platforms it will be available on (PlayStation and Xbox).
+*   **Responsive Navigation:** A clean and simple navigation bar with the game's logo and a menu icon.
+*   **Advanced Animations:** The entire landing page is brought to life with a variety of animations using the GSAP library, including scroll-triggered animations, fades, and mask effects.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   React
+*   Vite
+*   GSAP (GreenSock Animation Platform)
+*   Tailwind CSS (based on the class names)
+
+## To Run This Project
+
+1.  Clone the repository.
+2.  Install the dependencies:
+    ```bash
+    npm install
+    ```
+3.  Start the development server:
+    ```bash
+    npm run dev
+    ```
