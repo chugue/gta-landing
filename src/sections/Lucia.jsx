@@ -5,7 +5,7 @@ import React from "react";
 const Lucia = () => {
   useGSAP(() => {
     gsap.set(".lucia-life", {
-      marginTop: "-80vh",
+      marginTop: "-50vh",
     });
 
     gsap

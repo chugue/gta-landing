@@ -4,7 +4,6 @@ import gsap from "gsap";
 const Jason = () => {
   useGSAP(() => {
     gsap.set(".jason", { marginTop: "-80vh" });
-
     gsap
       .timeline({
         scrollTrigger: {
@@ -14,7 +13,7 @@ const Jason = () => {
           scrub: 2,
         },
       })
-      .to(".first-vd", { opacity: 0, duration: 3, ease: "power1.inOut" });
+      .to(".first-vd", { opacity: 0, duration: 5, ease: "power1.inOut" });
 
     gsap.to(
       ".jason .img-box",
