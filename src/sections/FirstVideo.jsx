@@ -7,7 +7,7 @@ const FirstVideo = () => {
 
   useGSAP(() => {
     gsap.set(".first-vd-wrapper", {
-      marginTop: "-150vh",
+      marginTop: "-180vh",
       opacity: 0,
     });
 
@@ -22,7 +22,7 @@ const FirstVideo = () => {
     });
 
     tl.to(".hero-section", {
-      delay: 0.5,
+      delay: 0.2,
       opacity: 0,
       ease: "power1.inOut",
     });
@@ -37,7 +37,7 @@ const FirstVideo = () => {
         videoRef.current,
         {
           currentTime: videoRef.current.duration,
-          duration: 3,
+          duration: 4,
           ease: "power1.inOut",
         },
         "<"
